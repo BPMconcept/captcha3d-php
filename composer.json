@@ -1,0 +1,19 @@
+{
+    "name": "marcbp/captcha3d-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Blanc-Patin",
+            "email": "marc.blancpatin@bpmconcept.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/process": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Captcha3D\\": "src/"
+        }
+    }
+}
