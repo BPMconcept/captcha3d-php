@@ -1,6 +1,6 @@
-A basic PHP wrapper for [Captcha3D](https://github.com/marcbp/captcha3d).
+A basic PHP wrapper for [Captcha3D](https://github.com/marcbp/captcha3d)
 
-```
+``` php
 $captcha = new Captcha3D\Captcha('/path/to/captcha3d');
 
 $captcha->setString('abc')
